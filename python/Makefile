@@ -19,7 +19,7 @@ update-deps:
 
 install:
 	@echo "Installing dependencies"
-	poetry install
+	poetry install --no-root
 
 proto-pull:
 	@echo "Pull external .proto files"
