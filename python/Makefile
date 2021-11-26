@@ -33,4 +33,5 @@ proto-gen:
 
 build:
 	@echo "Building distribution artifacts"
+	poetry install
 	poetry build
